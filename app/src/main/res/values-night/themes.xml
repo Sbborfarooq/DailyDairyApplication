@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DailyDairyApplication" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item> //remove default splash
+
+
+    </style>
+</resources>

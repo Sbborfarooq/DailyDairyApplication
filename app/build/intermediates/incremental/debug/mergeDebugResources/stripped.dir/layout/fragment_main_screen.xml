@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.MainScreenFragment"
+    android:background="@color/loading_color">
+
+    <Button
+        android:id="@+id/menue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button"
+        android:padding="10dp"
+        android:text="menue"
+        android:textColor="@color/loading_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/book_opened"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/book_opened"
+        app:layout_constraintStart_toEndOf="@+id/menue_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_tittle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAILY DIARY"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/book_opened"
+        app:layout_constraintStart_toStartOf="@+id/book_opened"
+        app:layout_constraintTop_toBottomOf="@+id/book_opened" />
+
+    <TextView
+        android:id="@+id/sub_tittle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="SAVE MEMORIES IN YOUR POCKET"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/main_tittle_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/main_tittle_view"
+        app:layout_constraintTop_toBottomOf="@+id/main_tittle_view" />
+
+    <Button
+        android:id="@+id/write_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/round_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/write"
+        android:gravity="start|center_vertical"
+        android:paddingStart="10dp"
+        android:scrollbarSize="10sp"
+        android:text="    Write your diary"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub_tittle_view" />
+
+    <Button
+        android:id="@+id/saved_notes_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/round_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/notes"
+        android:gravity="start|center_vertical"
+        android:paddingStart="10dp"
+        android:scrollbarSize="10sp"
+        android:text="    Your saved notes"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/write_button" />
+
+    <Button
+        android:id="@+id/folders_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/round_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/folder"
+        android:gravity="start|center_vertical"
+        android:paddingStart="10dp"
+        android:scrollbarSize="10sp"
+        android:text="    Folders"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saved_notes_button" />
+
+    <Button
+        android:id="@+id/draft_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/round_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/draft_svg"
+        android:gravity="start|center_vertical"
+        android:paddingStart="10dp"
+        android:scrollbarSize="10sp"
+        android:text="    Drafts"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/folders_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

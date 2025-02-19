@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.dailydairyapplication.views.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loadingFragment"
+            app:destination="@id/loadingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.example.dailydairyapplication.views.LoadingFragment"
+        android:label="fragment_loading"
+        tools:layout="@layout/fragment_loading" >
+        <action
+            android:id="@+id/action_loadingFragment_to_mainScreenFragment"
+            app:destination="@id/mainScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreenFragment"
+        android:name="com.example.dailydairyapplication.views.MainScreenFragment"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <action
+            android:id="@+id/action_mainScreenFragment_to_menueFragment"
+            app:destination="@id/menueFragment" />
+        <action
+            android:id="@+id/action_mainScreenFragment_to_draftsFragment"
+            app:destination="@id/draftsFragment" />
+        <action
+            android:id="@+id/action_mainScreenFragment_to_foldersFragment"
+            app:destination="@id/foldersFragment" />
+        <action
+            android:id="@+id/action_mainScreenFragment_to_savedNotesFragment"
+            app:destination="@id/savedNotesFragment" />
+        <action
+            android:id="@+id/action_mainScreenFragment_to_writeFragment"
+            app:destination="@id/writeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menueFragment"
+        android:name="com.example.dailydairyapplication.views.MenueFragment"
+        android:label="fragment_menue"
+        tools:layout="@layout/fragment_menue" />
+    <fragment
+        android:id="@+id/draftsFragment"
+        android:name="com.example.dailydairyapplication.views.DraftsFragment"
+        android:label="fragment_drafts"
+        tools:layout="@layout/fragment_drafts" />
+    <fragment
+        android:id="@+id/foldersFragment"
+        android:name="com.example.dailydairyapplication.views.FoldersFragment"
+        android:label="fragment_folders"
+        tools:layout="@layout/fragment_folders" />
+    <fragment
+        android:id="@+id/savedNotesFragment"
+        android:name="com.example.dailydairyapplication.views.SavedNotesFragment"
+        android:label="fragment_saved_notes"
+        tools:layout="@layout/fragment_saved_notes" />
+    <fragment
+        android:id="@+id/writeFragment"
+        android:name="com.example.dailydairyapplication.views.WriteFragment"
+        android:label="fragment_write"
+        tools:layout="@layout/fragment_write" />
+</navigation>

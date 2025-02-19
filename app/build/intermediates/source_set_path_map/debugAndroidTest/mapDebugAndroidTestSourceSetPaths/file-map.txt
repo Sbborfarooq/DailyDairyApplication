@@ -1,0 +1,6 @@
+com.example.dailydairyapplication.test.app-tracing-1.2.0-0 C:\Users\a\.gradle\caches\8.9\transforms\8a7469c1d41d0dd6bed30c2183911b5b\transformed\tracing-1.2.0\res
+com.example.dailydairyapplication.test.app-core-1.6.1-1 C:\Users\a\.gradle\caches\8.9\transforms\a9325241d5fee9b47d20a8d2be0a77dc\transformed\core-1.6.1\res
+com.example.dailydairyapplication.test.app-androidTest-2 C:\Users\a\AndroidStudioProjects\DailyDairyApplication\app\build\generated\res\resValues\androidTest\debug
+com.example.dailydairyapplication.test.app-mergeDebugAndroidTestResources-3 C:\Users\a\AndroidStudioProjects\DailyDairyApplication\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.dailydairyapplication.test.app-mergeDebugAndroidTestResources-4 C:\Users\a\AndroidStudioProjects\DailyDairyApplication\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.dailydairyapplication.test.app-debugAndroidTest-5 C:\Users\a\AndroidStudioProjects\DailyDairyApplication\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

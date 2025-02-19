@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_saved_notes.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_saved_notes.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_loading.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_loading.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_splash.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_menue.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_menue.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_folders.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_folders.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/activity_main.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/folder_dialogue_create.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/folder_dialogue_create.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_write.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_write.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_main_screen.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_main_screen.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/item_folder.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/item_folder.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/fragment_drafts.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/fragment_drafts.xml"
+    },
+    {
+        "merged": "com.example.dailydairyapplication.app-mergeDebugResources-65:/layout/dialog_custom.xml",
+        "source": "com.example.dailydairyapplication.app-main-68:/layout/dialog_custom.xml"
+    }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loading_color">#D11C5C</color>
+
+    <!-- Material Design Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Primary Color -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Primary Variant Color -->
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="floating_add_button_color">#F9ECB5</color>
+    <color name="save_button_color">#494435</color> <!-- Secondary Color -->
+</resources>

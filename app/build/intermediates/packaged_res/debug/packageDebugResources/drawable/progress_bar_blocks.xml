@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background of the progress bar -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" /> <!-- Background color -->
+            <corners android:radius="8dp" />   <!-- Rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Progress blocks -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FF6200EE" /> <!-- Progress block color -->
+                <corners android:radius="4dp" />    <!-- Rounded corners for blocks -->
+                <stroke android:width="4dp" android:color="#E0E0E0" /> <!-- Gap between blocks -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
